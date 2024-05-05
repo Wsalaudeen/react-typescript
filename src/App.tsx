@@ -1,11 +1,11 @@
 import "./App.css";
+import Component from "./final/events";
 
 function App() {
   return (
-    <>
-      <h1>React & Typescript</h1>
-    </>
+    <main>
+      <Component />
+    </main>
   );
 }
-
 export default App;
