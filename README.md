@@ -398,6 +398,7 @@ type AdvancedProfileCardProps = {
   email: string;
 };
 type ProfileCardProps = BasicProfileCardProps | AdvancedProfileCardProps;
+
 function Component(props: ProfileCardProps) {
   const { type, name } = props;
   if (type === "basic")
